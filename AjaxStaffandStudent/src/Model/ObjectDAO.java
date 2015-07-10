@@ -117,6 +117,33 @@ public class ObjectDAO {
 		return alist;
 	}
 
+	public ObjectDTO viewObject(String id) throws SQLException {
+		String sql = "select * from hrd_students where stu_id=?";
+		PreparedStatement pstm = cn.prepareStatement(sql);
+		pstm.setString(1, id);
+		ResultSet rs = pstm.executeQuery();
+		ObjectDTO objectdto = new ObjectDTO();
+		try {
+			if (rs.next()) {
+				objectdto = new ObjectDTO(rs.getString("stu_id"),
+						rs.getString("stu_name"), rs.getInt("stu_gender"),
+						rs.getString("stu_university"),
+						rs.getString("stu_class"), rs.getInt("stu_status"));
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return objectdto;
+	}
+
+	public boolean DeleteObject(String id) throws SQLException {
+		String sql = "delete from hrd_students where stu_id=?";
+		PreparedStatement pstm = cn.prepareStatement(sql);
+		pstm.setString(1, id);
+		return pstm.execute();
+	}
+
 	/********************** Here is Connection Database *********************************/
 	static {
 		try {
@@ -128,5 +155,10 @@ public class ObjectDAO {
 			e.printStackTrace();
 		}
 	}
-	/********************** Here is Connection Database *********************************/
+	/**********************
+	 * Here is Connection Database
+	 * 
+	 * @throws SQLException
+	 *********************************/
+
 }

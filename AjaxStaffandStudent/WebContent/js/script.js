@@ -59,29 +59,16 @@ function listobjectdetails(data) {
 	var str = "";
 	for (var i = 0; i < data.length; i++) {
 
-		str += "<tr>"
-				+ "<td id=studid"
-				+ i
-				+ ">"
-				+ data[i].stuid
-				+ "</td>"
-				+ "<td>"
-				+ data[i].stuname
-				+ "</td>"
-				+ "<td>"
-				+ checkGender(data[i].gender)
-				+ "</td>"
-				+ "<td>"
-				+ data[i].unversity
-				+ "</td>"
-				+ "<td>"
-				+ data[i].classes
-				+ "</td>"
-				+ "<td>"
-				+ checkStatus(data[i].status, i)
-				+ "</td>"
-				+ "<td><button class=btnEdit onclick=editFun()>Edit</button><button class=btnRemove onclick=removeFun()>Remove</button><button  class=btnView onclick=viewFun()'>View</button></td>"
-				+ "</tr>";
+		str += "<tr>" + "<td id=studid" + i + ">" + data[i].stuid + "</td>"
+				+ "<td>" + data[i].stuname + "</td>" + "<td>"
+				+ checkGender(data[i].gender) + "</td>" + "<td>"
+				+ data[i].unversity + "</td>" + "<td>" + data[i].classes
+				+ "</td>" + "<td>" + checkStatus(data[i].status, i) + "</td>"
+				+ "<td><button class=btnEdit" + i + " onclick=editFun(" + i
+				+ ")>Edit</button><button class=btnRemove" + i
+				+ " onclick=removeFun(" + i
+				+ ")>Remove</button><button  class=btnView" + i
+				+ " onclick=viewFun(" + i + ")>View</button></td>" + "</tr>";
 	}
 
 	str += "</table>";
@@ -213,7 +200,27 @@ function searchStatus() {
 }
 /*
  * Add Function
- * */
-function add(){
+ */
+function add() {
 	$("#sbody").load("pages/addForm.html"); // load file from article
+}
+
+function editFun(i) {
+	alert("This is Edit" + $("#studid" + i).text());
+}
+function removeFun(i) {
+	var stuid = $("#studid" + i).text();
+	$.post("deleteobject.hrd", {
+		stu_id : stuid
+	}, function(data) {
+		lists();
+	});
+}
+function viewFun(i) {
+	var stuid = $("#studid" + i).text();
+	$.post("viewobject.hrd", {
+		stu_id : stuid
+	}, function(data) {
+		$("#sbody").load("pages/viewdetails.html");
+	});
 }

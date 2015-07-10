@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<div>
+		<button id="btnhomepage">Homepage</button>
+	</div>
+	<div>
+		<i><h2>-------------Information Detail------------</h2></i>
+		<label>ID         :</label><h3 id="stuid">1</h3>
+		<label>NAME       :</label><h3 id="stuname">2</h3>
+		<label>GENDER     :</label><h3 id="stugender">3</h3>
+		<label>UINVERSITY :</label><h3 id="stuuniversity">4</h3>
+		<label>CLASS      :</label><h3 id="stuclass">5</h3>
+		<label>STATUS     :</label><h3 id="stustatus">6</h3>
+		<i><h2>-------------Information Detail------------</h2></i>
+	</div>
+</body>
+</html>

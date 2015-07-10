@@ -1,0 +1,32 @@
+package Controller;
+
+import java.util.ArrayList;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import Model.ObjectDAO;
+import Model.ObjectDTO;
+
+import com.google.gson.Gson;
+
+public class DeleteObject implements Action {
+
+	@Override
+	public ActionForward execute(HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+
+		ArrayList<ObjectDTO> listdto= new ArrayList<ObjectDTO>();
+		String id= request.getParameter("stu_id");
+		listdto = new ObjectDAO().viewObject(id);
+		
+		response.setContentType("application/json");
+		response.setCharacterEncoding("UTF-8");
+		String gsondto= new Gson().toJson(listdto);
+		
+		response.getWriter().write(gsondto);
+		System.out.println(listdto.size());
+		return null;
+	}
+
+}

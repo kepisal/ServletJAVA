@@ -28,17 +28,20 @@ option {
 	height: 23px;
 }
 
-table, th, td {
+.mytb td, .mytb th {
 	border: 1px solid black;
 	border-collapse: collapse;
 	text-align: center;
 }
-#title{
-	text-align:center;
+
+#title {
+	text-align: center;
 }
+
 img {
 	width: 20px;
 }
+
 #classlist, #universitylist, #txtinput, #statuslist {
 	display: inline-block;
 	margin: 10px;
@@ -46,8 +49,13 @@ img {
 
 button {
 	margin: 5px;
+	height: 32px
 }
-form{float:left;}
+
+.stuform td {
+	padding: 2px;
+	border: 0px;
+}
 </style>
 </head>
 <body>
@@ -75,8 +83,40 @@ form{float:left;}
 					<option value=0>Deactive</option>
 				</select>
 			</div>
-			<button id="btnadd btn btn-success" onclick="add()">Insert
-				More</button>
+		</div>
+		<div id="sform">
+			<table class="stuform">
+			<h3><i>Student Data</i></h3>
+				<tr>
+					<td><i>Student Id</i></td>
+					<td>&nbsp;&nbsp;:<input /></td>
+				</tr>
+				<tr>
+					<td><i>Student Name </i></td>
+					<td>&nbsp;&nbsp;:<input /></td>
+				</tr>
+				<tr>
+					<td><i>Student Gender </i></td>
+					<td>&nbsp;&nbsp;:<input /></td>
+				</tr>
+				<tr>
+					<td><i>Student University </i></td>
+					<td>&nbsp;&nbsp;:<input /></td>
+				</tr>
+				<tr>
+					<td><i>Student Class </i></td>
+					<td>&nbsp;&nbsp;:<input /></td>
+				</tr>
+				<tr>
+					<td><i>Student Status </i></td>
+					<td>&nbsp;&nbsp;:<input /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><button id="btnadd btn btn-success"
+							onclick="add()">Submit</button>
+						<button id="btnclear btn btn-success" onclick="add()">Clear</button></td>
+				</tr>
+			</table>
 		</div>
 		<div id="sbody">
 			<table class="mytb col-sm-12">
@@ -94,6 +134,22 @@ form{float:left;}
 				<tbody id="tblist">
 				</tbody>
 			</table>
+			<div id="sdetails">
+				<!-- <i><h2>-------------Information Detail------------</h2></i> <label>ID
+				:</label>
+			<h3 id="stuid"></h3>
+			<label>NAME :</label>
+			<h3 id="stuname"></h3>
+			<label>GENDER :</label>
+			<h3 id="stugender"></h3>
+			<label>UINVERSITY :</label>
+			<h3 id="stuuniversity"></h3>
+			<label>CLASS :</label>
+			<h3 id="stuclass"></h3>
+			<label>STATUS :</label>
+			<h3 id="stustatus">ss</h3>
+			<i><h2>-------------Information Detail------------</h2></i> -->
+			</div>
 		</div>
 		<div class="col-sm-3"></div>
 	</div>

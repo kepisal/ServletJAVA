@@ -82,6 +82,22 @@ public class Front_Controller extends HttpServlet {
 					e.printStackTrace();
 				}
 				break;
+			case "/viewobject.hrd":
+				action = new ViewObject();
+				try {
+					forward = action.execute(request, response);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				break;
+			case "/deleteobject.hrd":
+				action = new DeleteObject();
+				try {
+					forward = action.execute(request, response);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				break;
 			default :
 				forward = new ActionForward();
 				forward.setPath("404.jsp");
