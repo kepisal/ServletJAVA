@@ -1,0 +1,289 @@
+
+Jul 10, 2015 19:47:23.83 NEW SESSION
+Jul 10, 2015 19:47:23.83 [NPAPI 6088] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Jul 10, 2015 19:47:23.84 [NPAPI 7448] WARNING: pipe error: 109: file c:/builds/moz2_slave/rel-m-rel-w32_bld-000000000000/build/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 333
+Jul 10, 2015 19:53:47.83 console.warn: Asynchronous operation was aborted as selection changed.
+Jul 10, 2015 19:58:11.96 console.warn: Asynchronous operation was aborted as selection changed.
+Jul 10, 2015 19:58:34.23 console.error: 
+Jul 10, 2015 19:58:34.23   navigated; resolution of _defaultNode aborted
+Jul 10, 2015 19:58:37.24 *************************
+Jul 10, 2015 19:58:37.24 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 19:58:37.24 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 19:58:37.24 
+Jul 10, 2015 19:58:37.24 Full message: TypeError: can't access dead object
+Jul 10, 2015 19:58:37.24 Full stack: StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:410:14
+Jul 10, 2015 19:58:37.24 StyleSheetActor<._fetchSourceMap/</map<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:680:11
+Jul 10, 2015 19:58:37.24 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 19:58:37.24 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 19:58:37.24 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 19:58:37.24 
+Jul 10, 2015 19:58:37.24 *************************
+Jul 10, 2015 19:58:37.25 *************************
+Jul 10, 2015 19:58:37.25 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 19:58:37.25 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 19:58:37.25 
+Jul 10, 2015 19:58:37.25 Full message: TypeError: can't access dead object
+Jul 10, 2015 19:58:37.25 Full stack: StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:410:14
+Jul 10, 2015 19:58:37.25 StyleSheetActor<._fetchSourceMap/</map<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:680:11
+Jul 10, 2015 19:58:37.25 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 19:58:37.25 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 19:58:37.25 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 19:58:37.25 
+Jul 10, 2015 19:58:37.26 *************************
+Jul 10, 2015 19:58:37.27 *************************
+Jul 10, 2015 19:58:37.27 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 19:58:37.27 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 19:58:37.27 
+Jul 10, 2015 19:58:37.27 Full message: TypeError: can't access dead object
+Jul 10, 2015 19:58:37.27 Full stack: StyleSheetActor<.href@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:410:14
+Jul 10, 2015 19:58:37.27 StyleSheetActor<._fetchSourceMap/</map<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:680:11
+Jul 10, 2015 19:58:37.27 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 19:58:37.27 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 19:58:37.27 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 19:58:37.27 
+Jul 10, 2015 19:58:37.27 *************************
+Jul 10, 2015 19:58:37.84 console.error: 
+Jul 10, 2015 19:58:37.84   Message: Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.84   Stack:
+Jul 10, 2015 19:58:37.84     fetch/streamListener.onStopRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:1185:29
+Jul 10, 2015 19:58:37.84 
+Jul 10, 2015 19:58:37.85 fetch/streamListener.onStopRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:1185:29
+Jul 10, 2015 19:58:37.85 console.error: 
+Jul 10, 2015 19:58:37.85   Message: Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.85   Stack:
+Jul 10, 2015 19:58:37.85     fetch/streamListener.onStopRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:1185:29
+Jul 10, 2015 19:58:37.85 
+Jul 10, 2015 19:58:37.85 fetch/streamListener.onStopRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:1185:29
+Jul 10, 2015 19:58:37.85 console.error: 
+Jul 10, 2015 19:58:37.85   Message: Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.85   Stack:
+Jul 10, 2015 19:58:37.85     fetch/streamListener.onStopRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:1185:29
+Jul 10, 2015 19:58:37.85 
+Jul 10, 2015 19:58:37.85 fetch/streamListener.onStopRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:1185:29
+Jul 10, 2015 19:58:37.87 console.error: 
+Jul 10, 2015 19:58:37.87   Protocol error (noSuchActor): No such actor for ID: server1.conn1.domnode234
+Jul 10, 2015 19:58:37.87 console.error: 
+Jul 10, 2015 19:58:37.87   Protocol error (noSuchActor): No such actor for ID: server1.conn1.domnode234
+Jul 10, 2015 19:58:37.89 console.error: 
+Jul 10, 2015 19:58:37.89   Protocol error (unknownError): Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.89 console.error: 
+Jul 10, 2015 19:58:37.89   Protocol error (unknownError): Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.89 *************************
+Jul 10, 2015 19:58:37.89 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 19:58:37.89 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 19:58:37.89 
+Jul 10, 2015 19:58:37.89 Full message: TypeError: strings is undefined
+Jul 10, 2015 19:58:37.89 Full stack: RuleEditor_updateSourceLink/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2104:9
+Jul 10, 2015 19:58:37.89 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 19:58:37.89 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 19:58:37.89 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 19:58:37.89 
+Jul 10, 2015 19:58:37.89 *************************
+Jul 10, 2015 19:58:37.89 console.error: 
+Jul 10, 2015 19:58:37.89   Protocol error (unknownError): Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.89 console.error: 
+Jul 10, 2015 19:58:37.89   Protocol error (unknownError): Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.89 *************************
+Jul 10, 2015 19:58:37.89 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 19:58:37.89 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 19:58:37.90 
+Jul 10, 2015 19:58:37.90 Full message: TypeError: strings is undefined
+Jul 10, 2015 19:58:37.90 Full stack: RuleEditor_updateSourceLink/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2104:9
+Jul 10, 2015 19:58:37.90 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 19:58:37.90 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 19:58:37.90 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 19:58:37.90 
+Jul 10, 2015 19:58:37.90 *************************
+Jul 10, 2015 19:58:37.90 console.error: 
+Jul 10, 2015 19:58:37.90   Protocol error (unknownError): Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.90 console.error: 
+Jul 10, 2015 19:58:37.90   Protocol error (unknownError): Error: Request failed with status code = 2152398850 in onStopRequest handler for url = http://localhost:8080/AjaxStaffandStudent/bootstrap/css/bootstrap.css.map
+Jul 10, 2015 19:58:37.90 *************************
+Jul 10, 2015 19:58:37.90 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 19:58:37.90 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 19:58:37.90 
+Jul 10, 2015 19:58:37.90 Full message: TypeError: strings is undefined
+Jul 10, 2015 19:58:37.90 Full stack: RuleEditor_updateSourceLink/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2104:9
+Jul 10, 2015 19:58:37.90 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 19:58:37.90 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 19:58:37.90 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 19:58:37.90 
+Jul 10, 2015 19:58:37.90 *************************
+Jul 10, 2015 20:00:44.47 console.warn: Asynchronous operation was aborted as selection changed.
+Jul 10, 2015 20:01:11.17 console.error: 
+Jul 10, 2015 20:01:11.17   Message: TypeError: aAttr.value is null
+Jul 10, 2015 20:01:11.17   Stack:
+Jul 10, 2015 20:01:11.17     ElementEditor.prototype._createAttribute@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/markupview/markup-view.js:2566:1
+Jul 10, 2015 20:01:11.17 ElementEditor.prototype.update@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/markupview/markup-view.js:2436:25
+Jul 10, 2015 20:01:11.17 MarkupContainer.prototype.update@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/markupview/markup-view.js:1967:7
+Jul 10, 2015 20:01:11.17 MarkupView.prototype._mutationObserver@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/markupview/markup-view.js:739:9
+Jul 10, 2015 20:01:11.17 emit@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/commonjs/sdk/event/core.js:104:9
+Jul 10, 2015 20:01:11.17 exports.WalkerFront<.getMutations</<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3016:7
+Jul 10, 2015 20:01:11.17 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:01:11.17 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:01:11.17 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:01:11.17 
+Jul 10, 2015 20:01:26.54 *************************
+Jul 10, 2015 20:01:26.54 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 20:01:26.54 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 20:01:26.54 
+Jul 10, 2015 20:01:26.54 Full message: TypeError: this._target is null
+Jul 10, 2015 20:01:26.54 Full stack: InspectorPanel.prototype.selectionCssSelector@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/inspector/inspector-panel.js:397:7
+Jul 10, 2015 20:01:26.54 InspectorPanel_onNewSelection/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/inspector/inspector-panel.js:434:9
+Jul 10, 2015 20:01:26.54 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:01:26.54 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:01:26.54 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:01:26.54 
+Jul 10, 2015 20:01:26.54 *************************
+Jul 10, 2015 20:01:26.54 console.warn: Could not set the unique selector for the newly selected node, the inspector was destroyed.
+Jul 10, 2015 20:02:39.23 *************************
+Jul 10, 2015 20:02:39.23 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 20:02:39.23 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 20:02:39.23 
+Jul 10, 2015 20:02:39.23 Full message: TypeError: can't access dead object
+Jul 10, 2015 20:02:39.23 Full stack: LoginManagerContent.loginsFound@resource://gre/modules/LoginManagerContent.jsm:281:9
+Jul 10, 2015 20:02:39.23 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:02:39.23 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:02:39.23 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:02:39.23 
+Jul 10, 2015 20:02:39.24 *************************
+Jul 10, 2015 20:02:55.03 console.warn: Asynchronous operation was aborted as selection changed.
+Jul 10, 2015 20:03:48.95 E/MPEG4Extractor( 5592): No width or height, assuming worst case 1080p
+Jul 10, 2015 20:09:23.33 console.error: 
+Jul 10, 2015 20:09:23.33   Message: Error: Connection closed, pending request to server1.conn1.221, type getOriginalLocation failed
+Jul 10, 2015 20:09:23.33   Stack:
+Jul 10, 2015 20:09:23.33     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1115:23
+Jul 10, 2015 20:09:23.33 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:974:5
+Jul 10, 2015 20:09:23.33 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.33 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.33 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:887:5
+Jul 10, 2015 20:09:23.33 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.33 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.33 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3307:5
+Jul 10, 2015 20:09:23.33 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1588:15
+Jul 10, 2015 20:09:23.33 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Jul 10, 2015 20:09:23.33 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.33 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.33 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.33 
+Jul 10, 2015 20:09:23.33 console.error: 
+Jul 10, 2015 20:09:23.33   Message: Error: Connection closed, pending request to server1.conn1.221, type getOriginalLocation failed
+Jul 10, 2015 20:09:23.33   Stack:
+Jul 10, 2015 20:09:23.33     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1115:23
+Jul 10, 2015 20:09:23.33 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:974:5
+Jul 10, 2015 20:09:23.33 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.33 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.33 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:887:5
+Jul 10, 2015 20:09:23.33 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.33 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.33 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3307:5
+Jul 10, 2015 20:09:23.33 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1588:15
+Jul 10, 2015 20:09:23.33 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Jul 10, 2015 20:09:23.33 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.33 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.33 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.33 
+Jul 10, 2015 20:09:23.33 console.error: 
+Jul 10, 2015 20:09:23.33   Message: Error: Connection closed, pending request to server1.conn1.221, type getOriginalLocation failed
+Jul 10, 2015 20:09:23.33   Stack:
+Jul 10, 2015 20:09:23.33     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1115:23
+Jul 10, 2015 20:09:23.33 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:974:5
+Jul 10, 2015 20:09:23.33 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.33 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.34 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:887:5
+Jul 10, 2015 20:09:23.34 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.34 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.34 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3307:5
+Jul 10, 2015 20:09:23.34 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1588:15
+Jul 10, 2015 20:09:23.34 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Jul 10, 2015 20:09:23.34 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.34 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.34 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.34 
+Jul 10, 2015 20:09:23.34 console.error: 
+Jul 10, 2015 20:09:23.34   Message: Error: Connection closed, pending request to server1.conn1.221, type getOriginalLocation failed
+Jul 10, 2015 20:09:23.34   Stack:
+Jul 10, 2015 20:09:23.34     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1115:23
+Jul 10, 2015 20:09:23.34 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:974:5
+Jul 10, 2015 20:09:23.34 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.34 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.34 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:887:5
+Jul 10, 2015 20:09:23.34 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.34 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.34 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3307:5
+Jul 10, 2015 20:09:23.34 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1588:15
+Jul 10, 2015 20:09:23.34 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Jul 10, 2015 20:09:23.34 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.34 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.34 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.34 
+Jul 10, 2015 20:09:23.34 console.error: 
+Jul 10, 2015 20:09:23.34   Message: Error: Connection closed, pending request to server1.conn1.221, type getOriginalLocation failed
+Jul 10, 2015 20:09:23.34   Stack:
+Jul 10, 2015 20:09:23.34     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1115:23
+Jul 10, 2015 20:09:23.34 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:974:5
+Jul 10, 2015 20:09:23.34 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.34 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.34 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:887:5
+Jul 10, 2015 20:09:23.34 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.34 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.34 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3307:5
+Jul 10, 2015 20:09:23.34 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1588:15
+Jul 10, 2015 20:09:23.34 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Jul 10, 2015 20:09:23.34 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.34 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.34 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.34 
+Jul 10, 2015 20:09:23.34 console.error: 
+Jul 10, 2015 20:09:23.34   Message: Error: Connection closed, pending request to server1.conn1.221, type getOriginalLocation failed
+Jul 10, 2015 20:09:23.34   Stack:
+Jul 10, 2015 20:09:23.34     Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1115:23
+Jul 10, 2015 20:09:23.34 StyleSheetFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/stylesheets.js:974:5
+Jul 10, 2015 20:09:23.34 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.35 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.35 PageStyleFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/styles.js:887:5
+Jul 10, 2015 20:09:23.35 Pool<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:813:9
+Jul 10, 2015 20:09:23.35 Front<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/protocol.js:1118:5
+Jul 10, 2015 20:09:23.35 exports.InspectorFront<.destroy@resource://gre/modules/commonjs/toolkit/loader.js -> resource://gre/modules/devtools/server/actors/inspector.js:3307:5
+Jul 10, 2015 20:09:23.35 Toolbox.prototype.destroyInspector/outstanding/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/framework/toolbox.js:1588:15
+Jul 10, 2015 20:09:23.35 TaskImpl_run@resource://gre/modules/Task.jsm:314:40
+Jul 10, 2015 20:09:23.35 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.35 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.35 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.35 
+Jul 10, 2015 20:09:23.35 *************************
+Jul 10, 2015 20:09:23.35 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 20:09:23.35 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 20:09:23.35 
+Jul 10, 2015 20:09:23.35 Full message: TypeError: strings is undefined
+Jul 10, 2015 20:09:23.35 Full stack: RuleEditor_updateSourceLink/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2104:9
+Jul 10, 2015 20:09:23.35 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.35 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.35 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.35 
+Jul 10, 2015 20:09:23.35 *************************
+Jul 10, 2015 20:09:23.35 *************************
+Jul 10, 2015 20:09:23.36 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 20:09:23.36 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 20:09:23.36 
+Jul 10, 2015 20:09:23.36 Full message: TypeError: strings is undefined
+Jul 10, 2015 20:09:23.36 Full stack: RuleEditor_updateSourceLink/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2104:9
+Jul 10, 2015 20:09:23.36 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.36 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.36 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.36 
+Jul 10, 2015 20:09:23.36 *************************
+Jul 10, 2015 20:09:23.36 *************************
+Jul 10, 2015 20:09:23.36 A coding exception was thrown in a Promise resolution callback.
+Jul 10, 2015 20:09:23.36 See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+Jul 10, 2015 20:09:23.36 
+Jul 10, 2015 20:09:23.36 Full message: TypeError: strings is undefined
+Jul 10, 2015 20:09:23.36 Full stack: RuleEditor_updateSourceLink/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource:///modules/devtools/styleinspector/rule-view.js:2104:9
+Jul 10, 2015 20:09:23.36 Handler.prototype.process@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:867:23
+Jul 10, 2015 20:09:23.36 this.PromiseWalker.walkerLoop@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:746:7
+Jul 10, 2015 20:09:23.36 this.PromiseWalker.scheduleWalkerLoop/<@resource://gre/modules/Promise.jsm -> resource://gre/modules/Promise-backend.js:688:37
+Jul 10, 2015 20:09:23.36 
+Jul 10, 2015 20:09:23.36 *************************
+Jul 10, 2015 20:10:10.17 console.warn: Asynchronous operation was aborted as selection changed.
+Jul 10, 2015 20:33:06.07 console.warn: Asynchronous operation was aborted as selection changed.
+Jul 10, 2015 20:39:45.17 console.warn: Asynchronous operation was aborted as selection changed.

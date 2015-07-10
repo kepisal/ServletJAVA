@@ -122,8 +122,7 @@ public class ObjectDAO {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			cn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/dbhrdstudents", "root", "");
-			
+					"jdbc:mysql://localhost:3306/ssdbmanage", "admin", "admin");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

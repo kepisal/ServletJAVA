@@ -1,0 +1,8 @@
+$(document).ready(function(){
+	$("body").load("../pages/index.pages");
+	$.getScript("script.js", function(){
+
+		   alert("Script loaded but not necessarily executed.");
+
+		});
+});

@@ -1,0 +1,9 @@
+$(document).ready(function() {
+	$("body").load("../pages/index.pages", function() {
+		head.load("js/jquery.min.js",
+		          "js/jquery.someplugin.js",
+		          "js/jquery.someplugin.css", function() {
+		  alert("Everything is ok!");
+		});F
+	});
+});

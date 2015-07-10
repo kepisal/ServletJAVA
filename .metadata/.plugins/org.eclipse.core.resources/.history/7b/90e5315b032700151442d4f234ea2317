@@ -1,0 +1,9 @@
+$(document).ready(function() {
+	$("body").load("pages/index.pages", function() {
+		$.ajax({
+			  url: "script.js",
+			  dataType: "script",
+			  success: success
+			});
+	});
+});

@@ -1,0 +1,7 @@
+$(document).ready(function() {
+	$("body").load("pages/index.pages", function() {
+		head.load("script.js", function() {
+		  alert("Everything is ok!");
+		});
+	});
+});
