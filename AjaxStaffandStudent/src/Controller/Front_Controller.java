@@ -98,6 +98,14 @@ public class Front_Controller extends HttpServlet {
 					e.printStackTrace();
 				}
 				break;
+			case "/addobject.hrd":
+				action = new AddObject();
+				try {
+					forward = action.execute(request, response);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+				break;
 			default :
 				forward = new ActionForward();
 				forward.setPath("404.jsp");

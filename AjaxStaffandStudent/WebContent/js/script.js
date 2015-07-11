@@ -4,6 +4,10 @@ $(document).ready(function() {
 	$("#txtinput").keyup(function() {
 		searchName($("#txtinput").val()); // action keyup on textbox
 	});
+	$("#btnadd").click(function() {
+		add();
+	});
+	$("#sdetails").fadeOut(100);
 });
 /*
  * @param : data is JSon generate <option> value </option> for dropdownlist
@@ -202,11 +206,47 @@ function searchStatus() {
  * Add Function
  */
 function add() {
-	$("#sbody").load("pages/addForm.html"); // load file from article
+	var stuid = $("#txtinputid").val();
+	var stuname = $("#txtinputname").val();
+	var stugender=0;
+	var stuuniversity = $("#txtinputuniversity").val();
+	var stuclass = $("#txtinputclass").val();
+	var stustatus=0;
+	if($("#txtinputgender").val()=="male"){
+		stugender=0;
+	}else if($("#txtinputgender").val()=="female"){
+		stugender=1;
+	}
+	if($("#txtinputstatus").val()=="active"){
+		stustatus==1;
+	}else if($("#txtinputstatus").val()=="deactive"){
+		stustatus==0;
+	}
+	$.post("addobject.hrd", {
+		stu_id:stuid,
+		stu_name:stuname,
+		stu_gender:stugender,
+		stu_university:stuuniversity,
+		stu_class:stuclass,
+		stu_status:stustatus
+	}, function(data) {
+		lists();
+		$("input").val("");
+	});
 }
 
 function editFun(i) {
-	alert("This is Edit" + $("#studid" + i).text());
+	var stuid = $("#studid" + i).text();
+	$.post("viewobject.hrd", {
+		stu_id : stuid
+	}, function(data) {
+		$("#txtinputid").val(data.stuid);
+		$("#txtinputname").val(data.stuname);
+		$("#txtinputgender").val(data.gender);
+		$("#txtinputuniversity").val(data.unversity);
+		$("#txtinputclass").val(data.classes);
+		$("#txtinputstatus").val(data.status);
+	});
 }
 function removeFun(i) {
 	var stuid = $("#studid" + i).text();
@@ -221,6 +261,12 @@ function viewFun(i) {
 	$.post("viewobject.hrd", {
 		stu_id : stuid
 	}, function(data) {
-		$("#sbody").load("pages/viewdetails.html");
+		$("#sdetails").fadeIn(100);
+		$("#stuid").text(data.stuid);
+		$("#stuname").text(data.stuname);
+		$("#stugender").text(data.gender);
+		$("#stuuniversity").text(data.unversity);
+		$("#stuclass").text(data.classes);
+		$("#stustatus").text(data.status);
 	});
 }

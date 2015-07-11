@@ -144,6 +144,40 @@ public class ObjectDAO {
 		return pstm.execute();
 	}
 
+	public boolean add(ObjectDTO objectDTO) throws SQLException {
+		boolean idexist = false;
+		String sqlid = "select stu_id from hrd_students";
+		java.sql.Statement stm = cn.createStatement();
+		PreparedStatement pstm = null;
+		ResultSet rs = stm.executeQuery(sqlid);
+		while (rs.next()) {
+			if (rs.getString(1).equals(objectDTO.getStuid())) {
+				pstm = cn
+						.prepareStatement("update hrd_students set stu_name=?, stu_gender=?, stu_university=?,stu_class=?,stu_status=? where stu_id=?");
+
+				pstm.setString(1, objectDTO.getStuname());
+				pstm.setInt(2, objectDTO.getGender());
+				pstm.setString(3, objectDTO.getUnversity());
+				pstm.setString(4, objectDTO.getClasses());
+				pstm.setInt(5, objectDTO.getStatus());
+				pstm.setString(6, objectDTO.getStuid());
+				idexist = true;
+			}
+		}
+		if (idexist == false) {
+			String sql = "insert into hrd_students values(?,?,?,?,?,?)";
+			pstm = cn.prepareStatement(sql);
+			pstm.setString(1, objectDTO.getStuid());
+			pstm.setString(2, objectDTO.getStuname());
+			pstm.setInt(3, objectDTO.getGender());
+			pstm.setString(4, objectDTO.getUnversity());
+			pstm.setString(5, objectDTO.getClasses());
+			pstm.setInt(6, objectDTO.getStatus());
+		}
+		return pstm.execute();
+
+	}
+
 	/********************** Here is Connection Database *********************************/
 	static {
 		try {

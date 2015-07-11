@@ -89,35 +89,49 @@ button {
 			<h3><i>Student Data</i></h3>
 				<tr>
 					<td><i>Student Id</i></td>
-					<td>&nbsp;&nbsp;:<input /></td>
+					<td>&nbsp;&nbsp;:<input id="txtinputid" /></td>
 				</tr>
 				<tr>
 					<td><i>Student Name </i></td>
-					<td>&nbsp;&nbsp;:<input /></td>
+					<td>&nbsp;&nbsp;:<input id="txtinputname" /></td>
 				</tr>
 				<tr>
 					<td><i>Student Gender </i></td>
-					<td>&nbsp;&nbsp;:<input /></td>
+					<td>&nbsp;&nbsp;:<input id="txtinputgender" placeholder="male or female" /></td>
 				</tr>
 				<tr>
 					<td><i>Student University </i></td>
-					<td>&nbsp;&nbsp;:<input /></td>
+					<td>&nbsp;&nbsp;:<input id="txtinputuniversity" /></td>
 				</tr>
 				<tr>
 					<td><i>Student Class </i></td>
-					<td>&nbsp;&nbsp;:<input /></td>
+					<td>&nbsp;&nbsp;:<input id="txtinputclass"/></td>
 				</tr>
 				<tr>
 					<td><i>Student Status </i></td>
-					<td>&nbsp;&nbsp;:<input /></td>
+					<td>&nbsp;&nbsp;:<input id="txtinputstatus" placeholder="active or deactive"/></td>
 				</tr>
 				<tr>
-					<td colspan="2"><button id="btnadd btn btn-success"
-							onclick="add()">Submit</button>
-						<button id="btnclear btn btn-success" onclick="add()">Clear</button></td>
+					<td colspan="2"><button id="btnadd">Submit</button></td>
 				</tr>
 			</table>
 		</div>
+		<div id="sdetails">
+				<i><h2>-------------Information Detail------------</h2></i> <label>ID
+				:</label>
+			<h3 id="stuid"></h3>
+			<label>NAME :</label>
+			<h3 id="stuname"></h3>
+			<label>GENDER :</label>
+			<h3 id="stugender"></h3>
+			<label>UINVERSITY :</label>
+			<h3 id="stuuniversity"></h3>
+			<label>CLASS :</label>
+			<h3 id="stuclass"></h3>
+			<label>STATUS :</label>
+			<h3 id="stustatus">ss</h3>
+			<i><h2>-------------Information Detail------------</h2></i>
+			</div>
 		<div id="sbody">
 			<table class="mytb col-sm-12">
 				<thead>
@@ -134,22 +148,6 @@ button {
 				<tbody id="tblist">
 				</tbody>
 			</table>
-			<div id="sdetails">
-				<!-- <i><h2>-------------Information Detail------------</h2></i> <label>ID
-				:</label>
-			<h3 id="stuid"></h3>
-			<label>NAME :</label>
-			<h3 id="stuname"></h3>
-			<label>GENDER :</label>
-			<h3 id="stugender"></h3>
-			<label>UINVERSITY :</label>
-			<h3 id="stuuniversity"></h3>
-			<label>CLASS :</label>
-			<h3 id="stuclass"></h3>
-			<label>STATUS :</label>
-			<h3 id="stustatus">ss</h3>
-			<i><h2>-------------Information Detail------------</h2></i> -->
-			</div>
 		</div>
 		<div class="col-sm-3"></div>
 	</div>

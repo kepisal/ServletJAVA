@@ -1,0 +1,39 @@
+package Controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import Model.ObjectDAO;
+import Model.ObjectDTO;
+
+public class AddObject implements Action {
+
+	@Override
+	public ActionForward execute(HttpServletRequest request,
+			HttpServletResponse response) throws Exception {
+
+		String id = request.getParameter("stu_id");
+		String name = request.getParameter("stu_name");
+		String gender = request.getParameter("stu_gender");
+		String university = request.getParameter("stu_university");
+		String classes = request.getParameter("stu_class");
+		String status = request.getParameter("stu_status");
+		ObjectDTO objDTO = new ObjectDTO();
+		objDTO.setStatus(Integer.parseInt(request.getParameter("stu_status")));
+		objDTO.setStuname(Integer.parseInt(request.getParameter("stu_status")));
+		objDTO.setStatus(Integer.parseInt(request.getParameter("stu_status")));
+		objDTO.setStatus(Integer.parseInt(request.getParameter("stu_status")));
+		objDTO.setStatus(Integer.parseInt(request.getParameter("stu_status")));
+		objDTO.setStatus(Integer.parseInt(request.getParameter("stu_status")));
+		objDTO.setStuid(id);
+		response.setContentType("text/plain");
+		if (new ObjectDAO().update(objDTO.getStuid(), objDTO.getStatus())) {
+			System.out.println("Update FAIL");
+			response.getWriter().write("fail");
+		} else {
+			System.err.println("Update Success");
+			response.getWriter().write("success");
+		}
+		return null;
+	}
+}
