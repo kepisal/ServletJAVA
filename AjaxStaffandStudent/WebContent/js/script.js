@@ -71,8 +71,7 @@ function listobjectdetails(data) {
 				+ "<td><button class=btnEdit" + i + " onclick=editFun(" + i
 				+ ")>Edit</button><button class=btnRemove" + i
 				+ " onclick=removeFun(" + i
-				+ ")>Remove</button><button  class=btnView" + i
-				+ " onclick=viewFun(" + i + ")>View</button></td>" + "</tr>";
+				+ ")>Remove</button></tr>";
 	}
 
 	str += "</table>";
@@ -104,10 +103,10 @@ function checkGender(data) {
 function checkStatus(data, i) {
 	var img;
 	if (data == 0) {
-		img = "<a href=#><img src=img/0.png id=mydata" + i
+		img = "<a href=javascript:void(0);><img src=img/0.png id=mydata" + i
 				+ " onclick=updateStatus(" + i + "," + data + ")></a>";
 	} else {
-		img = "<a href=#><img src=img/1.png id=mydata" + i
+		img = "<a href=javascript:void(0); ><img src=img/1.png id=mydata" + i
 				+ " onclick=updateStatus(" + i + "," + data + ")></a>";
 	}
 	return img;
@@ -128,7 +127,7 @@ function updateStatus(id, value) {
 		stu_id : stuid,
 		stu_status : active
 	}, function(data) {
-		lists();
+		searchStatus();
 	});
 }
 /*
@@ -153,7 +152,7 @@ function searchName() {
 }
 /*
  * search by class()
- */
+*/ 
 function searchClass() {
 	var stuname = $('#txtinput').val();
 	var stuclass = $('#classselected option:selected').val();
@@ -166,6 +165,7 @@ function searchClass() {
 		stu_status : stustatus
 	}, function(data) {
 		$("#tblist").html(listobjectdetails(data));
+		
 	});
 }
 /*

@@ -116,22 +116,6 @@ button {
 				</tr>
 			</table>
 		</div>
-		<div id="sdetails">
-				<i><h2>-------------Information Detail------------</h2></i> <label>ID
-				:</label>
-			<h3 id="stuid"></h3>
-			<label>NAME :</label>
-			<h3 id="stuname"></h3>
-			<label>GENDER :</label>
-			<h3 id="stugender"></h3>
-			<label>UINVERSITY :</label>
-			<h3 id="stuuniversity"></h3>
-			<label>CLASS :</label>
-			<h3 id="stuclass"></h3>
-			<label>STATUS :</label>
-			<h3 id="stustatus">ss</h3>
-			<i><h2>-------------Information Detail------------</h2></i>
-			</div>
 		<div id="sbody">
 			<table class="mytb col-sm-12">
 				<thead>
