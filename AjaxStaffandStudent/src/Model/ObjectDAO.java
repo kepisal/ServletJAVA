@@ -32,9 +32,13 @@ public class ObjectDAO {
 						.getString("stu_university"),
 						rs.getString("stu_class"), rs.getInt("stu_status")));
 			}
-
 		} catch (Exception e) {
 			e.printStackTrace();
+			
+		}finally{
+			rs.close();
+			stm.close();
+			cn.close();
 		}
 		return objectdto;
 	}
@@ -50,8 +54,10 @@ public class ObjectDAO {
 			pstm.setString(1, String.valueOf(status));
 			pstm.setString(2, id);
 			return pstm.execute();
+			
 		} catch (Exception e) {
 			e.printStackTrace();
+			cn.close();
 		}
 		return false;
 	}
@@ -71,6 +77,10 @@ public class ObjectDAO {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
+		}finally{
+			rs.close();
+			stm.close();
+			cn.close();
 		}
 		return objectdto;
 	}
@@ -88,8 +98,14 @@ public class ObjectDAO {
 				objectdto.add(new ObjectDTO("", "", 0, rs
 						.getString("stu_university"), "", 0));
 			}
+			
 		} catch (Exception e) {
 			e.printStackTrace();
+		
+		}finally{
+			rs.close();
+			stm.close();
+			cn.close();
 		}
 		return objectdto;
 	}
@@ -114,6 +130,9 @@ public class ObjectDAO {
 					.getString("stu_university"), rs.getString("stu_class"), rs
 					.getInt("stu_status")));
 		}
+		rs.close();
+		ps.close();
+		cn.close();
 		return alist;
 	}
 	/*
@@ -134,9 +153,13 @@ public class ObjectDAO {
 						rs.getString("stu_university"),
 						rs.getString("stu_class"), rs.getInt("stu_status"));
 			}
-
+			
 		} catch (Exception e) {
 			e.printStackTrace();
+		}finally{
+			rs.close();
+			pstm.close();
+			cn.close();
 		}
 		return objectdto;
 	}
@@ -199,7 +222,7 @@ public class ObjectDAO {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			cn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/ssdbmanage", "root", "");
+					"jdbc:mysql://localhost:3306/dbhrdstudents", "root", "");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

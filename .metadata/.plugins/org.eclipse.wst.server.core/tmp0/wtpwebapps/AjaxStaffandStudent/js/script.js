@@ -207,19 +207,23 @@ function add() {
 	var stuuniversity = $("#txtinputuniversity").val();
 	var stuclass = $("#txtinputclass").val();
 	var stustatus = $("#txtinputstatus option:selected").val();
-	$.post("addobject.hrd", {
-		stu_id : stuid,
-		stu_name : stuname,
-		stu_gender : stugender,
-		stu_university : stuuniversity,
-		stu_class : stuclass,
-		stu_status : stustatus
-	}, function(data) {
-		lists();
-		$("input").val("");
-		$("#btnadd").val("Submit");
-		$("#statustr").show();
-	});
+	if (stuid == "" && stuname == "" && stuuniversity == "") {
+		alert("Data not valid");
+	} else {
+		$.post("addobject.hrd", {
+			stu_id : stuid,
+			stu_name : stuname,
+			stu_gender : stugender,
+			stu_university : stuuniversity,
+			stu_class : stuclass,
+			stu_status : stustatus
+		}, function(data) {
+			lists();
+			$("input").val("");
+			$("#btnadd").val("Submit");
+			$("#statustr").show();
+		});
+	}
 }
 /*
  * Update Object
@@ -267,9 +271,25 @@ function viewFun(i) {
 		 * $("#stuuniversity").text(data.unversity);
 		 * $("#stuclass").text(data.classes); $("#stustatus").text(data.status);
 		 */
-		alert("<<--Student Information-->>"+"\n"+"User ID : " + data.stuid + "\n" + "User Name : " + data.stuname
-				+ "\n" + "Gender : " + (data.gender > 0 ? "Male" : "Female") + "\n" + "University : "
-				+ data.unversity + "\n" + "Class : " + data.classes + "\n"
-				+ "Status : " + (data.status > 0 ? "Active" : "Deactive"+"\n"+"<<--Student Information-->>"));
+		alert("<<--Student Information-->>"
+				+ "\n"
+				+ "User ID : "
+				+ data.stuid
+				+ "\n"
+				+ "User Name : "
+				+ data.stuname
+				+ "\n"
+				+ "Gender : "
+				+ (data.gender > 0 ? "Male" : "Female")
+				+ "\n"
+				+ "University : "
+				+ data.unversity
+				+ "\n"
+				+ "Class : "
+				+ data.classes
+				+ "\n"
+				+ "Status : "
+				+ (data.status > 0 ? "Active" : "Deactive" + "\n"
+						+ "<<--Student Information-->>"));
 	});
 }
