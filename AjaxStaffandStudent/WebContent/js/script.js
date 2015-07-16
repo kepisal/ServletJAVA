@@ -2,12 +2,11 @@ $(document).ready(function() {
 	lists(); // list all objects in table
 	droplist(); // list all objects in dropdownlist(class, university)
 	$("#txtinput").keyup(function() {
-		searchName($("#txtinput").val()); // action keyup on textbox
+		searchName(); // action keyup on textbox
 	});
 	$("#btnadd").click(function() {
 		add();
 	});
-	$("#sdetails").fadeOut(100);
 });
 /*
  * @param : data is JSon generate <option> value </option> for dropdownlist
@@ -52,6 +51,7 @@ function droplist() {
  */
 function lists() {
 	$.post("listobject.hrd", function(data) {
+		droplist();
 		$("#tblist").html(listobjectdetails(data));
 	});
 
@@ -71,18 +71,14 @@ function listobjectdetails(data) {
 				+ "<td><button class=btnEdit" + i + " onclick=editFun(" + i
 				+ ")>Edit</button><button class=btnRemove" + i
 				+ " onclick=removeFun(" + i
-				+ ")>Remove</button></tr>";
+				+ ")>Remove</button><button class=btnView" + i
+				+ " onclick=viewFun(" + i
+				+ ")>View</button></tr>";
 	}
 
 	str += "</table>";
 
 	return str;
-}
-/*
- * create form for edit and insertion
- */
-function myform() {
-	var str = "";
 }
 
 /*
@@ -90,7 +86,7 @@ function myform() {
  */
 function checkGender(data) {
 	var gender;
-	if (data == 0) {
+	if (data == 1) {
 		gender = "Male";
 	} else {
 		gender = "Female";
@@ -208,20 +204,10 @@ function searchStatus() {
 function add() {
 	var stuid = $("#txtinputid").val();
 	var stuname = $("#txtinputname").val();
-	var stugender=0;
+	var stugender=$("#txtinputgender option:selected").val();
 	var stuuniversity = $("#txtinputuniversity").val();
 	var stuclass = $("#txtinputclass").val();
-	var stustatus=0;
-	if($("#txtinputgender").val()=="male"){
-		stugender=0;
-	}else if($("#txtinputgender").val()=="female"){
-		stugender=1;
-	}
-	if($("#txtinputstatus").val()=="active"){
-		stustatus==1;
-	}else if($("#txtinputstatus").val()=="deactive"){
-		stustatus==0;
-	}
+	var stustatus = $("#txtinputstatus option:selected").val();
 	$.post("addobject.hrd", {
 		stu_id:stuid,
 		stu_name:stuname,
@@ -232,10 +218,15 @@ function add() {
 	}, function(data) {
 		lists();
 		$("input").val("");
+		$("#btnadd").val("Submit");
+		$("#statustr").show();
 	});
 }
-
+/*
+ * Update Object
+ * */
 function editFun(i) {
+	$("#statustr").hide();
 	var stuid = $("#studid" + i).text();
 	$.post("viewobject.hrd", {
 		stu_id : stuid
@@ -246,8 +237,15 @@ function editFun(i) {
 		$("#txtinputuniversity").val(data.unversity);
 		$("#txtinputclass").val(data.classes);
 		$("#txtinputstatus").val(data.status);
+		/*Change Button*/
+		$("#btnadd").attr("value","update").click(function(){
+			add();
+		});
 	});
 }
+/*
+ * Remove Specific Object
+ * */
 function removeFun(i) {
 	var stuid = $("#studid" + i).text();
 	$.post("deleteobject.hrd", {
@@ -256,12 +254,15 @@ function removeFun(i) {
 		lists();
 	});
 }
+/*
+ * View Object Details
+ * */
 function viewFun(i) {
 	var stuid = $("#studid" + i).text();
 	$.post("viewobject.hrd", {
 		stu_id : stuid
 	}, function(data) {
-		$("#sdetails").fadeIn(100);
+		
 		$("#stuid").text(data.stuid);
 		$("#stuname").text(data.stuname);
 		$("#stugender").text(data.gender);

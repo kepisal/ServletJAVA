@@ -11,7 +11,6 @@ public class AddObject implements Action {
 	@Override
 	public ActionForward execute(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
-
 		String id = request.getParameter("stu_id");
 		String name = request.getParameter("stu_name");
 		String gender = request.getParameter("stu_gender");

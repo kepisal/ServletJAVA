@@ -1126,3 +1126,572 @@ Binding(ALT+SHIFT+V,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.wst.jsdt.ui.javascriptViewScope,,,system)
+!SESSION 2015-07-15 12:09:24.327 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2015-07-15 12:09:29.576
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2015-07-15 12:09:37.807
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 12:09:47.265
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 12:09:47.266
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2015-07-15 12:11:08.571
+!MESSAGE The archive: C:/apache-tomcat-7.0.63/bin/bootstrap.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2015-07-15 12:11:42.286
+!MESSAGE The archive: C:/apache-tomcat-7.0.63/bin/bootstrap.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2015-07-15 12:11:48.310
+!MESSAGE The archive: C:/apache-tomcat-7.0.63/bin/bootstrap.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jdt.launching 4 150 2015-07-15 12:12:13.542
+!MESSAGE The archive: C:/apache-tomcat-7.0.63/bin/bootstrap.jar which is referenced by the classpath, does not exist.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2015-07-15 12:12:55.231
+!MESSAGE Port 8005 required by Tomcat v7.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).
+!SESSION 2015-07-15 13:54:49.242 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 13:55:05.732
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 13:55:05.732
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-15 14:32:26.311 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data E:\KSHRD Center\WEB\Homework\Servlet\ServletJAVA -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 14:32:41.342
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 14:32:41.342
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-15 14:33:51.021 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data E:\KSHRD Center\WEB\Homework\Servlet\ServletJAVA -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 14:34:04.527
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 14:34:04.528
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-15 15:11:01.847 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data E:\KSHRD Center\WEB\Homework\Servlet\ServletJAVA -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 15:11:16.842
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 15:11:16.843
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-15 15:57:02.842 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\KSHRD Center\WEB\Homework\Servlet\ServletJAVA -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 15:57:16.137
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 15:57:16.138
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.jsdt.core 4 4 2015-07-15 16:04:23.232
+!MESSAGE Exception occurred during problem detection:
+----------------------------------- SOURCE BEGIN -------------------------------------
+$(document).ready(function() {
+	lists(); // list all objects in table
+	droplist(); // list all objects in dropdownlist(class, university)
+	$("#txtinput").keyup(function() {
+		searchName(); // action keyup on textbox
+	});
+	$("#btnadd").click(function() {
+		add();
+	});
+});
+/*
+ * @param : data is JSon generate <option> value </option> for dropdownlist
+ * class
+ */
+function classlist(data) {
+	var str = "";
+	str += "<option value=''>All Classes</option>;";
+	for (var i = 0; i < data.length; i++) {
+		str += "<option value=" + data[i].classes + ">" + data[i].classes;
+	}
+	str += "</option>";
+	return str;
+}
+/*
+ * @param : data is JSon generate <option> value </option> for dropdownlist
+ * university
+ */
+function unvlist(data) {
+	var str = "";
+	str += "<option value=''>All University</option>;";
+	for (var i = 0; i < data.length; i++) {
+		str += "<option value=" + data[i].unversity + ">" + data[i].unversity;
+	}
+	str += "</optiont>";
+	return str;
+}
+
+/*
+ * get data from url and put into function with param
+ */
+function droplist() {
+	$.post("classlist.hrd", function(data) {
+		$("#classselected").html(classlist(data));
+	});
+	$.post("universitylist.hrd", function(data) {
+		$("#unvselected").html(unvlist(data));
+	});
+}
+/*
+ * generate rows inside table list
+ */
+function lists() {
+	$.post("listobject.hrd", function(data) {
+		$("#tblist").html(listobjectdetails(data));
+	});
+
+}
+/*
+ * create tag <tr><td> value </td></tr> follow data
+ */
+function listobjectdetails(data) {
+	var str = "";
+	for (var i = 0; i < data.length; i++) {
+
+		str += "<tr>" + "<td id=studid" + i + ">" + data[i].stuid + "</td>"
+				+ "<td>" + data[i].stuname + "</td>" + "<td>"
+				+ checkGender(data[i].gender) + "</td>" + "<td>"
+				+ data[i].unversity + "</td>" + "<td>" + data[i].classes
+				+ "</td>" + "<td>" + checkStatus(data[i].status, i) + "</td>"
+				+ "<td><button class=btnEdit" + i + " onclick=editFun(" + i
+				+ ")>Edit</button><button class=btnRemove" + i
+				+ " onclick=removeFun(" + i
+				+ ")>Remove</button></tr>";
+	}
+
+	str += "</table>";
+
+	return str;
+}
+
+/*
+ * change value 0,1 to male and female
+ */
+function checkGender(data) {
+	var gender;
+	if (data == 1) {
+		gender = "Male";
+	} else {
+		gender = "Female";
+	}
+	return gender;
+}
+/*
+ * change value 0,1 to image 0.png and 1.png
+ */
+function checkStatus(data, i) {
+	var img;
+	if (data == 0) {
+		img = "<a href=javascript:void(0);><img src=img/0.png id=mydata" + i
+				+ " onclick=updateStatus(" + i + "," + data + ")></a>";
+	} else {
+		img = "<a href=javascript:void(0); ><img src=img/1.png id=mydata" + i
+				+ " onclick=updateStatus(" + i + "," + data + ")></a>";
+	}
+	return img;
+}
+/*
+ * @param : id, value id -> id of each students value -> value of status update
+ * status
+ */
+function updateStatus(id, value) {
+	var stuid = $("#studid" + id).text();
+	var active;
+	if (value == 0) {
+		active = 1;
+	} else {
+		active = 0;
+	}
+	$.post("editobject.hrd", {
+		stu_id : stuid,
+		stu_status : active
+	}, function(data) {
+		searchStatus();
+	});
+}
+/*
+ * search by name()
+ */
+function searchName() {
+	var stuname = $('#txtinput').val();
+	var stuclass = $('#classselected option:selected').val();
+	var stuuniver = $('#unvselected option:selected').val();
+	var stustatus = $('#statusselected option:selected').val();
+	if (stuname == '') {
+		lists();
+	}
+	$.post("searchobject.hrd", {
+		stu_name : stuname,
+		stu_class : stuclass,
+		stu_university : stuuniver,
+		stu_status : stustatus
+	}, function(data) {
+		$("#tblist").html(listobjectdetails(data));
+	});
+}
+/*
+ * search by class()
+*/ 
+function searchClass() {
+	var stuname = $('#txtinput').val();
+	var stuclass = $('#classselected option:selected').val();
+	var stuuniver = $('#unvselected option:selected').val();
+	var stustatus = $('#statusselected option:selected').val();
+	$.post("searchobject.hrd", {
+		stu_name : stuname,
+		stu_class : stuclass,
+		stu_university : stuuniver,
+		stu_status : stustatus
+	}, function(data) {
+		$("#tblist").html(listobjectdetails(data));
+		
+	});
+}
+/*
+ * search by university()
+ */
+function searchUniversity() {
+	var stuname = $('#txtinput').val();
+	var stuclass = $('#classselected option:selected').val();
+	var stuuniver = $('#unvselected option:selected').val();
+	var stustatus = $('#statusselected option:selected').val();
+	$.post("searchobject.hrd", {
+		stu_name : stuname,
+		stu_class : stuclass,
+		stu_university : stuuniver,
+		stu_status : stustatus
+	}, function(data) {
+		$("#tblist").html(listobjectdetails(data));
+	});
+}
+/*
+ * search by status()
+ */
+function searchStatus() {
+	var stuname = $('#txtinput').val();
+	var stuclass = $('#classselected option:selected').val();
+	var stuuniver = $('#unvselected option:selected').val();
+	var stustatus = $('#statusselected option:selected').val();
+	$.post("searchobject.hrd", {
+		stu_name : stuname,
+		stu_class : stuclass,
+		stu_university : stuuniver,
+		stu_status : stustatus
+	}, function(data) {
+		$("#tblist").html(listobjectdetails(data));
+	});
+}
+/*
+ * Add Function
+ */
+function add() {
+	var stuid = $("#txtinputid").val();
+	var stuname = $("#txtinputname").val();
+	var stugender=$("#txtinputgender option:selected").val();
+	var stuuniversity = $("#txtinputuniversity").val();
+	var stuclass = $("#txtinputclass").val();
+	/*if($("#txtinputgender option:selected").val()=="1"){
+		stugender=0;
+	}else if($("#txtinputgender option:selected").val()=="0"){
+		stugender=1;
+	}*/
+	alert(stuid+stuname+stugender+stuuniversity+stuclass);
+	/*$.post("addobject.hrd", {
+		stu_id:stuid,
+		stu_name:stuname,
+		stu_gender:stugender,
+		stu_university:stuuniversity,
+		stu_class:stuclass
+	}, function(data) {
+		//lists();
+		$("#tblist").html(listobjectdetails(data));
+		$("input").val("");
+		//$("#btnadd").val("Submit");
+	});*/
+}
+
+function editFun(i) {
+	var stuid = $("#studid" + i).text();
+	$.post("viewobject.hrd", {
+		stu_id : stuid
+	}, function(data) {
+		$("#txtinputid").val(data.stuid);
+		$("#txtinputname").val(data.stuname);
+		$("#txtinputgender").val(data.gender);
+		$("#txtinputuniversity").val(data.unversity);
+		$("#txtinputclass").val(data.classes);
+		$("#txtinputstatus").val(data.status);
+		/*Change Button*/
+		$("#btnadd").attr("value","update").click(function(){
+			add()';'
+		});
+	});
+}
+function removeFun(i) {
+	var stuid = $("#studid" + i).text();
+	$.post("deleteobject.hrd", {
+		stu_id : stuid
+	}, function(data) {
+		lists();
+	});
+}
+function viewFun(i) {
+	var stuid = $("#studid" + i).text();
+	$.post("viewobject.hrd", {
+		stu_id : stuid
+	}, function(data) {
+		$("#sdetails").fadeIn(100);
+		$("#stuid").text(data.stuid);
+		$("#stuname").text(data.stuname);
+		$("#stugender").text(data.gender);
+		$("#stuuniversity").text(data.unversity);
+		$("#stuclass").text(data.classes);
+		$("#stustatus").text(data.status);
+	});
+}
+
+----------------------------------- SOURCE END -------------------------------------
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:280)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:335)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:197)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:96)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1272)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:76)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:143)
+	at org.eclipse.wst.jsdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:374)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+
+!ENTRY org.eclipse.wst.jsdt.ui 4 0 2015-07-15 16:04:23.240
+!MESSAGE Error in JSDT Core during reconcile
+!STACK 1
+JavaScript Model Exception: java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:313)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:335)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:197)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:96)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1272)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:76)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:143)
+	at org.eclipse.wst.jsdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:374)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:280)
+	... 15 more
+Caused by: java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:280)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:335)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:197)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:96)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1272)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:76)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:143)
+	at org.eclipse.wst.jsdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:374)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SUBENTRY 1 org.eclipse.wst.jsdt.core 4 1005 2015-07-15 16:04:23.284
+!MESSAGE java.lang.NullPointerException
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:280)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnitProblemFinder.process(CompilationUnitProblemFinder.java:335)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.makeConsistent(ReconcileWorkingCopyOperation.java:197)
+	at org.eclipse.wst.jsdt.internal.core.ReconcileWorkingCopyOperation.executeOperation(ReconcileWorkingCopyOperation.java:96)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.run(JavaModelOperation.java:742)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelOperation.runOperation(JavaModelOperation.java:802)
+	at org.eclipse.wst.jsdt.internal.core.CompilationUnit.reconcile(CompilationUnit.java:1272)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy$1.run(JavaReconcilingStrategy.java:95)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:76)
+	at org.eclipse.wst.jsdt.internal.ui.text.java.JavaReconcilingStrategy.reconcile(JavaReconcilingStrategy.java:143)
+	at org.eclipse.wst.jsdt.internal.ui.text.CompositeReconcilingStrategy.reconcile(CompositeReconcilingStrategy.java:85)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaCompositeReconcilingStrategy.reconcile(JavaCompositeReconcilingStrategy.java:94)
+	at org.eclipse.jface.text.reconciler.MonoReconciler.process(MonoReconciler.java:77)
+	at org.eclipse.wst.jsdt.internal.ui.text.JavaReconciler.process(JavaReconciler.java:374)
+	at org.eclipse.jface.text.reconciler.AbstractReconciler$BackgroundThread.run(AbstractReconciler.java:206)
+!SESSION 2015-07-15 19:47:28.656 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 19:49:29.523
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 19:49:29.540
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-15 20:27:54.982 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 20:28:09.917
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-15 20:28:09.918
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2015-07-16 11:05:21.074 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.8.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product -data E:\KSHRD Center\WEB\Homework\Servlet\ServletJAVA -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-16 11:05:34.706
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2015-07-16 11:05:34.832
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Home'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

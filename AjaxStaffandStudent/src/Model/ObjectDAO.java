@@ -116,7 +116,11 @@ public class ObjectDAO {
 		}
 		return alist;
 	}
-
+	/*
+	 * @param : id searching
+	 * return only one ObjectDTO
+	 * View Object Details
+	 * */
 	public ObjectDTO viewObject(String id) throws SQLException {
 		String sql = "select * from hrd_students where stu_id=?";
 		PreparedStatement pstm = cn.prepareStatement(sql);
@@ -137,13 +141,25 @@ public class ObjectDAO {
 		return objectdto;
 	}
 
+	/*
+	 * @param : id searching
+	 * return boolean
+	 * true : success deleted
+	 * false : fail deleted
+	 * */
 	public boolean DeleteObject(String id) throws SQLException {
 		String sql = "delete from hrd_students where stu_id=?";
 		PreparedStatement pstm = cn.prepareStatement(sql);
 		pstm.setString(1, id);
 		return pstm.execute();
 	}
-
+	/*
+	 * @param : Object
+	 * return boolean
+	 * 2 purpose : Add new and Edited
+	 * if Id existed : Update Record
+	 * if Id not existed : Add new Record
+	 * */
 	public boolean add(ObjectDTO objectDTO) throws SQLException {
 		boolean idexist = false;
 		String sqlid = "select stu_id from hrd_students";
@@ -183,8 +199,7 @@ public class ObjectDAO {
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			cn = DriverManager.getConnection(
-					"jdbc:mysql://localhost:3306/dbhrdstudents", "root", "");
-			System.out.println(1111);
+					"jdbc:mysql://localhost:3306/ssdbmanage", "root", "");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

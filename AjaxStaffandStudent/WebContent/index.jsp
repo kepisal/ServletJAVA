@@ -86,7 +86,9 @@ button {
 		</div>
 		<div id="sform">
 			<table class="stuform">
-			<h3><i>Student Data</i></h3>
+				<h3>
+					<i>Student Data</i>
+				</h3>
 				<tr>
 					<td><i>Student Id</i></td>
 					<td>&nbsp;&nbsp;:<input id="txtinputid" /></td>
@@ -97,7 +99,10 @@ button {
 				</tr>
 				<tr>
 					<td><i>Student Gender </i></td>
-					<td>&nbsp;&nbsp;:<input id="txtinputgender" placeholder="male or female" /></td>
+					<td>&nbsp;&nbsp;:<select id=txtinputgender>
+							<option value="1">Male</option>
+							<option value="0">Female</option>
+					</select></td>
 				</tr>
 				<tr>
 					<td><i>Student University </i></td>
@@ -105,14 +110,18 @@ button {
 				</tr>
 				<tr>
 					<td><i>Student Class </i></td>
-					<td>&nbsp;&nbsp;:<input id="txtinputclass"/></td>
+					<td>&nbsp;&nbsp;:<input id="txtinputclass" /></td>
 				</tr>
-				<tr>
+				<tr id="statustr">
 					<td><i>Student Status </i></td>
-					<td>&nbsp;&nbsp;:<input id="txtinputstatus" placeholder="active or deactive"/></td>
+					<td>&nbsp;&nbsp;:<select id="txtinputstatus">
+							<option value=1>Active</option>
+							<option value=0>Deactive</option>
+					</select></td>
 				</tr>
 				<tr>
-					<td colspan="2"><button id="btnadd">Submit</button></td>
+					<td colspan="2"><input type="button" id="btnadd"
+						value="submit" /></td>
 				</tr>
 			</table>
 		</div>
