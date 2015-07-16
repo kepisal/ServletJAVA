@@ -260,16 +260,17 @@ function viewFun(i) {
 	var stuid = $("#studid" + i).text();
 	$.post("viewobject.hrd", {
 		stu_id : stuid
-	}, function(data) {
-		/*
-		 * $("#stuid").text(data.stuid); $("#stuname").text(data.stuname);
-		 * $("#stugender").text(data.gender);
-		 * $("#stuuniversity").text(data.unversity);
-		 * $("#stuclass").text(data.classes); $("#stustatus").text(data.status);
-		 */
-		alert("<<--Student Information-->>"+"\n"+"User ID : " + data.stuid + "\n" + "User Name : " + data.stuname
-				+ "\n" + "Gender : " + (data.gender > 0 ? "Male" : "Female") + "\n" + "University : "
-				+ data.unversity + "\n" + "Class : " + data.classes + "\n"
-				+ "Status : " + (data.status > 0 ? "Active" : "Deactive"+"\n"+"<<--Student Information-->>"));
-	});
+	},
+			function(data) {
+				/*
+				 * $("#stuid").text(data.stuid);
+				 * $("#stuname").text(data.stuname);
+				 * $("#stugender").text(data.gender);
+				 * $("#stuuniversity").text(data.unversity);
+				 * $("#stuclass").text(data.classes);
+				 * $("#stustatus").text(data.status);
+				 */
+				alert("User ID : " + data.stuid + "\n" + "User Name : "
+						+ data.stuname);
+			});
 }

@@ -24,7 +24,7 @@ public class ViewObject implements Action {
 		String gsondto= new Gson().toJson(dto);
 		
 		response.getWriter().write(gsondto);
-		System.out.println(gsondto);
+		System.out.println(dto);
 		return null;
 	}
 }

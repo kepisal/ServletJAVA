@@ -72,7 +72,8 @@ function listobjectdetails(data) {
 				+ ")>Edit</button><button class=btnRemove" + i
 				+ " onclick=removeFun(" + i
 				+ ")>Remove</button><button class=btnView" + i
-				+ " onclick=viewFun(" + i + ")>View</button></tr>";
+				+ " onclick=viewFun(" + i
+				+ ")>View</button></tr>";
 	}
 
 	str += "</table>";
@@ -147,7 +148,7 @@ function searchName() {
 }
 /*
  * search by class()
- */
+*/ 
 function searchClass() {
 	var stuname = $('#txtinput').val();
 	var stuclass = $('#classselected option:selected').val();
@@ -160,7 +161,7 @@ function searchClass() {
 		stu_status : stustatus
 	}, function(data) {
 		$("#tblist").html(listobjectdetails(data));
-
+		
 	});
 }
 /*
@@ -203,17 +204,17 @@ function searchStatus() {
 function add() {
 	var stuid = $("#txtinputid").val();
 	var stuname = $("#txtinputname").val();
-	var stugender = $("#txtinputgender option:selected").val();
+	var stugender=$("#txtinputgender option:selected").val();
 	var stuuniversity = $("#txtinputuniversity").val();
 	var stuclass = $("#txtinputclass").val();
 	var stustatus = $("#txtinputstatus option:selected").val();
 	$.post("addobject.hrd", {
-		stu_id : stuid,
-		stu_name : stuname,
-		stu_gender : stugender,
-		stu_university : stuuniversity,
-		stu_class : stuclass,
-		stu_status : stustatus
+		stu_id:stuid,
+		stu_name:stuname,
+		stu_gender:stugender,
+		stu_university:stuuniversity,
+		stu_class:stuclass,
+		stu_status:stustatus
 	}, function(data) {
 		lists();
 		$("input").val("");
@@ -223,7 +224,7 @@ function add() {
 }
 /*
  * Update Object
- */
+ * */
 function editFun(i) {
 	$("#statustr").hide();
 	var stuid = $("#studid" + i).text();
@@ -236,15 +237,15 @@ function editFun(i) {
 		$("#txtinputuniversity").val(data.unversity);
 		$("#txtinputclass").val(data.classes);
 		$("#txtinputstatus").val(data.status);
-		/* Change Button */
-		$("#btnadd").attr("value", "update").click(function() {
+		/*Change Button*/
+		$("#btnadd").attr("value","update").click(function(){
 			add();
 		});
 	});
 }
 /*
  * Remove Specific Object
- */
+ * */
 function removeFun(i) {
 	var stuid = $("#studid" + i).text();
 	$.post("deleteobject.hrd", {
@@ -255,21 +256,19 @@ function removeFun(i) {
 }
 /*
  * View Object Details
- */
+ * */
 function viewFun(i) {
 	var stuid = $("#studid" + i).text();
 	$.post("viewobject.hrd", {
 		stu_id : stuid
 	}, function(data) {
 		/*
-		 * $("#stuid").text(data.stuid); $("#stuname").text(data.stuname);
-		 * $("#stugender").text(data.gender);
-		 * $("#stuuniversity").text(data.unversity);
-		 * $("#stuclass").text(data.classes); $("#stustatus").text(data.status);
-		 */
-		alert("<<--Student Information-->>"+"\n"+"User ID : " + data.stuid + "\n" + "User Name : " + data.stuname
-				+ "\n" + "Gender : " + (data.gender > 0 ? "Male" : "Female") + "\n" + "University : "
-				+ data.unversity + "\n" + "Class : " + data.classes + "\n"
-				+ "Status : " + (data.status > 0 ? "Active" : "Deactive"+"\n"+"<<--Student Information-->>"));
+		$("#stuid").text(data.stuid);
+		$("#stuname").text(data.stuname);
+		$("#stugender").text(data.gender);
+		$("#stuuniversity").text(data.unversity);
+		$("#stuclass").text(data.classes);
+		$("#stustatus").text(data.status);*/
+		alert("User ID : "+data.stuid+"\User Name : "+data.stuname);
 	});
 }
